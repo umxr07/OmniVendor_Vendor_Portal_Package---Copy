@@ -1,0 +1,306 @@
+{
+  "initialized": true,
+  "data": {
+    "categories": [
+      {
+        "id": "cat-1",
+        "name": "Electronics",
+        "color": "indigo",
+        "desc": "Electronic products"
+      },
+      {
+        "id": "cat-2",
+        "name": "Clothing",
+        "color": "emerald",
+        "desc": "Clothes and apparel"
+      },
+      {
+        "id": "cat-3",
+        "name": "Accessories",
+        "color": "amber",
+        "desc": "Mobile and fashion accessories"
+      }
+    ],
+    "vendors": [
+      {
+        "id": "v-1",
+        "name": "Ubad Electronics",
+        "categoryId": "cat-1",
+        "email": "ubad@example.com",
+        "phone": "9876543210",
+        "rating": 5,
+        "status": "Active"
+      },
+      {
+        "id": "v-2",
+        "name": "Zayan Fashion",
+        "categoryId": "cat-2",
+        "email": "zayan@example.com",
+        "phone": "9876501234",
+        "rating": 4,
+        "status": "Active"
+      },
+      {
+        "id": "v-3",
+        "name": "Sabzar Mobiles",
+        "categoryId": "cat-3",
+        "email": "sabzar@example.com",
+        "phone": "9876512345",
+        "rating": 5,
+        "status": "Active"
+      },
+      {
+        "id": "v-1792682782315-43c379",
+        "name": "sabzar",
+        "email": "sabzar@gmail.com",
+        "phone": "123456789",
+        "categoryId": "",
+        "rating": 5,
+        "status": "Active",
+        "contactPerson": "",
+        "address": "",
+        "gstNumber": ""
+      }
+    ],
+    "items": [
+      {
+        "id": "sku-1",
+        "name": "Samsung Galaxy S24",
+        "vendorId": "v-1",
+        "categoryId": "cat-1",
+        "price": 50000,
+        "stock": 25
+      },
+      {
+        "id": "sku-2",
+        "name": "Wireless Earbuds",
+        "vendorId": "v-1",
+        "categoryId": "cat-1",
+        "price": 1800,
+        "stock": 8
+      },
+      {
+        "id": "sku-3",
+        "name": "Bluetooth Speaker",
+        "vendorId": "v-1",
+        "categoryId": "cat-1",
+        "price": 2500,
+        "stock": 0
+      },
+      {
+        "id": "sku-4",
+        "name": "Cotton T-Shirt",
+        "vendorId": "v-2",
+        "categoryId": "cat-2",
+        "price": 350,
+        "stock": 120
+      },
+      {
+        "id": "sku-5",
+        "name": "Denim Jeans",
+        "vendorId": "v-2",
+        "categoryId": "cat-2",
+        "price": 950,
+        "stock": 12
+      },
+      {
+        "id": "sku-6",
+        "name": "Hoodie",
+        "vendorId": "v-2",
+        "categoryId": "cat-2",
+        "price": 750,
+        "stock": 0
+      },
+      {
+        "id": "sku-7",
+        "name": "Phone Case",
+        "vendorId": "v-3",
+        "categoryId": "cat-3",
+        "price": 250,
+        "stock": 75
+      },
+      {
+        "id": "sku-8",
+        "name": "USB-C Cable",
+        "vendorId": "v-3",
+        "categoryId": "cat-3",
+        "price": 180,
+        "stock": 5
+      },
+      {
+        "id": "sku-9",
+        "name": "Power Bank 20000mAh",
+        "vendorId": "v-3",
+        "categoryId": "cat-3",
+        "price": 1200,
+        "stock": 30
+      },
+      {
+        "id": "sku-1792682821480",
+        "name": "adidas",
+        "vendorId": "v-1792682782315-43c379",
+        "categoryId": "cat-2",
+        "price": 5,
+        "stock": 100
+      }
+    ],
+    "purchaseOrders": [
+      {
+        "id": "PO-9768",
+        "vendorId": "v-1792682782315-43c379",
+        "categoryId": "cat-2",
+        "itemId": "sku-1792682821480",
+        "quantity": 50,
+        "totalCost": 250,
+        "status": "Fulfilled",
+        "date": "2026-10-23",
+        "stockReceived": true
+      },
+      {
+        "id": "PO-3227",
+        "vendorId": "v-1792682782315-43c379",
+        "categoryId": "cat-2",
+        "itemId": "sku-1792682821480",
+        "quantity": 50,
+        "totalCost": 250,
+        "status": "Fulfilled",
+        "date": "2026-10-22",
+        "stockReceived": true
+      },
+      {
+        "id": "PO-1001",
+        "vendorId": "v-1",
+        "categoryId": "cat-1",
+        "itemId": "sku-1",
+        "quantity": 5,
+        "totalCost": 250000,
+        "status": "Fulfilled",
+        "date": "2026-10-10",
+        "stockReceived": true
+      },
+      {
+        "id": "PO-1002",
+        "vendorId": "v-1",
+        "categoryId": "cat-1",
+        "itemId": "sku-2",
+        "quantity": 20,
+        "totalCost": 36000,
+        "status": "Approved",
+        "date": "2026-10-18"
+      },
+      {
+        "id": "PO-1003",
+        "vendorId": "v-1",
+        "categoryId": "cat-1",
+        "itemId": "sku-3",
+        "quantity": 10,
+        "totalCost": 25000,
+        "status": "Approved",
+        "date": "2026-10-19"
+      },
+      {
+        "id": "PO-1004",
+        "vendorId": "v-2",
+        "categoryId": "cat-2",
+        "itemId": "sku-4",
+        "quantity": 50,
+        "totalCost": 17500,
+        "status": "Shipped",
+        "date": "2026-10-15"
+      },
+      {
+        "id": "PO-1005",
+        "vendorId": "v-2",
+        "categoryId": "cat-2",
+        "itemId": "sku-5",
+        "quantity": 15,
+        "totalCost": 14250,
+        "status": "Processing",
+        "date": "2026-10-20"
+      },
+      {
+        "id": "PO-1006",
+        "vendorId": "v-2",
+        "categoryId": "cat-2",
+        "itemId": "sku-6",
+        "quantity": 25,
+        "totalCost": 18750,
+        "status": "Rejected",
+        "date": "2026-10-12"
+      },
+      {
+        "id": "PO-1007",
+        "vendorId": "v-3",
+        "categoryId": "cat-3",
+        "itemId": "sku-7",
+        "quantity": 40,
+        "totalCost": 10000,
+        "status": "Fulfilled",
+        "date": "2026-10-14",
+        "stockReceived": true
+      },
+      {
+        "id": "PO-1008",
+        "vendorId": "v-3",
+        "categoryId": "cat-3",
+        "itemId": "sku-8",
+        "quantity": 100,
+        "totalCost": 18000,
+        "status": "Pending",
+        "date": "2026-10-21"
+      },
+      {
+        "id": "PO-1009",
+        "vendorId": "v-3",
+        "categoryId": "cat-3",
+        "itemId": "sku-9",
+        "quantity": 12,
+        "totalCost": 14400,
+        "status": "Received Delivery",
+        "date": "2026-10-22"
+      }
+    ],
+    "notifications": [
+      {
+        "id": "n-1792763335660",
+        "title": "PO Status Updated",
+        "text": "PO-9768 status changed to Fulfilled.",
+        "time": "Just now",
+        "unread": false
+      },
+      {
+        "id": "n-1792763334380",
+        "title": "PO Status Updated",
+        "text": "PO-9768 status changed to Rejected.",
+        "time": "Just now",
+        "unread": false
+      },
+      {
+        "id": "n-1792763332167",
+        "title": "Vendor Order Update",
+        "text": "sabzar updated PO-9768 to Approved.",
+        "time": "Just now",
+        "unread": false
+      },
+      {
+        "id": "n-1792763328939",
+        "title": "New Order Created",
+        "text": "Purchase order for 50x adidas issued.",
+        "time": "Just now",
+        "unread": false
+      }
+    ]
+  },
+  "accounts": [
+    {
+      "vendorId": "v-1792608012519",
+      "email": "ubad@gmail.com",
+      "password": "ubadd"
+    },
+    {
+      "vendorId": "v-1792682782315-43c379",
+      "email": "sabzar@gmail.com",
+      "password": "sabzar"
+    }
+  ]
+}
